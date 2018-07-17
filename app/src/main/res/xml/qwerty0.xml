@@ -1,0 +1,66 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="48dp">
+    <Row>
+        <Key android:codes="2364" android:keyWidth="8.33%p" android:keyLabel="&#x093C;" android:keyEdgeFlags="left"/>
+        <Key android:codes="2407" android:keyWidth="8.33%p" android:keyLabel="&#x0967;"/>
+        <Key android:codes="2408" android:keyWidth="8.33%p" android:keyLabel="&#x0968;"/>
+        <Key android:codes="2409" android:keyWidth="8.33%p" android:keyLabel="&#x0969;"/>
+        <Key android:codes="2410" android:keyWidth="8.33%p" android:keyLabel="&#x096A;"/>
+        <Key android:codes="2411" android:keyWidth="8.33%p" android:keyLabel="&#x096B;"/>
+        <Key android:codes="2412" android:keyWidth="8.33%p" android:keyLabel="&#x096C;"/>
+        <Key android:codes="2413" android:keyWidth="8.33%p" android:keyLabel="&#x096D;"/>
+        <Key android:codes="2414" android:keyWidth="8.33%p" android:keyLabel="&#x096E;"/>
+        <Key android:codes="2415" android:keyWidth="8.33%p" android:keyLabel="&#x096F;"/>
+        <Key android:codes="2406" android:keyWidth="8.33%p" android:keyLabel="&#x0966;"/>
+        <Key android:codes="2384" android:keyWidth="8.33%p" android:keyLabel="&#x0950;" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="2336" android:keyWidth="8.33%p" android:keyLabel="&#x0920;" android:keyEdgeFlags="left"/>
+        <Key android:codes="2324" android:keyWidth="8.33%p" android:keyLabel="&#x0914;"/>
+        <Key android:codes="2376" android:keyWidth="8.33%p" android:keyLabel="‌&#x0948;"/>
+        <Key android:codes="2371" android:keyWidth="8.33%p" android:keyLabel="‌&#x0943;"/>
+        <Key android:codes="2341" android:keyWidth="8.33%p" android:keyLabel="&#x0925;"/>
+        <Key android:codes="2370" android:keyWidth="8.33%p" android:keyLabel="&#x0942;"/>
+        <Key android:codes="2368" android:keyWidth="8.33%p" android:keyLabel="&#x0940;"/>
+        <Key android:codes="2334" android:keyWidth="8.33%p" android:keyLabel="&#x091E;"/>
+        <Key android:codes="2323" android:keyWidth="8.33%p" android:keyLabel="&#x0913;"/>
+        <Key android:codes="2347" android:keyWidth="8.33%p" android:keyLabel="&#x092B;"/>
+        <Key android:codes="2312" android:keyWidth="8.33%p" android:keyLabel="&#x0908;"/>
+        <Key android:codes="2320" android:keyWidth="8.33%p" android:keyLabel="&#x0910;" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="2310" android:keyWidth="8.33%p" android:keyLabel="&#x0906;" android:keyEdgeFlags="left"/>
+        <Key android:codes="2358" android:keyWidth="8.33%p" android:keyLabel="&#x0936;"/>
+        <Key android:codes="2343" android:keyWidth="8.33%p" android:keyLabel="&#x0927;"/>
+        <Key android:codes="2314" android:keyWidth="8.33%p" android:keyLabel="&#x090A;"/>
+        <Key android:codes="2328" android:keyWidth="8.33%p" android:keyLabel="&#x0918;"/>
+        <Key android:codes="2309" android:keyWidth="8.33%p" android:keyLabel="&#x0905;"/>
+        <Key android:codes="2333" android:keyWidth="8.33%p" android:keyLabel="&#x091D;"/>
+        <Key android:codes="2326" android:keyWidth="8.33%p"  android:keyLabel="&#x0916;"/>
+        <Key android:codes="2405" android:keyWidth="8.33%p" android:keyLabel="&#x0965;"/>
+        <Key android:codes="2381" android:keyWidth="8.33%p" android:keyLabel="&#x094D;"/>
+        <Key android:codes="59" android:keyWidth="8.33%p" android:keyLabel="\;"/>
+        <Key android:codes="39" android:keyWidth="8.33%p" android:keyLabel="\' " android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="-1" android:keyWidth="18%p" android:keyLabel="&#8679;" android:keyEdgeFlags="left"/>
+        <Key android:codes="2400" android:keyWidth="8%p" android:keyLabel="&#x0960;"/>
+        <Key android:codes="2338" android:keyWidth="8%p" android:keyLabel="&#x0922;"/>
+        <Key android:codes="2331" android:keyWidth="8%p" android:keyLabel="&#x091B;"/>
+        <Key android:codes="2305" android:keyWidth="8%p" android:keyLabel="&#x0901;"/>
+        <Key android:codes="2349" android:keyWidth="8%p" android:keyLabel="&#x092D;"/>
+        <Key android:codes="2339" android:keyWidth="8%p" android:keyLabel="&#x0923;"/>
+        <Key android:codes="2306" android:keyWidth="8%p" android:keyLabel="&#x0902;"/>
+        <Key android:codes="2329" android:keyWidth="8%p" android:keyLabel="&#x0919;"/>
+        <Key android:codes="-5"  android:keyLabel="&#x232b;"  android:keyWidth="18%p" android:isRepeatable="true"  android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="44,63" android:keyLabel="\, ?" android:keyWidth="15%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="-9" android:keyWidth="10%p" android:keyLabel="&#9112;"/>
+        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="50%p" android:isRepeatable="true"/>
+        <Key android:codes="2404" android:keyLabel="&#x0964;" android:keyWidth="10%p" />
+        <Key android:codes="-4" android:keyLabel="&#9166;" android:keyWidth="15%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
