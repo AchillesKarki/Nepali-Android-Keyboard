@@ -61,7 +61,7 @@
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="44,63" android:keyLabel="\, ?" android:keyWidth="15%p"  android:keyEdgeFlags="left"/>
         <Key android:codes="-9" android:keyWidth="10%p" android:keyLabel="&#9112;"/>
-        <Key android:codes="32" android:keyLabel="SPACE" android:keyWidth="50%p" android:isRepeatable="true"/>
+        <Key android:codes="32" android:keyLabel="" android:keyWidth="50%p" android:isRepeatable="true"/>
         <Key android:codes="2404" android:keyLabel="&#x0964;" android:keyWidth="10%p" />
         <Key android:codes="-4" android:keyLabel="&#9166;" android:keyWidth="15%p" android:keyEdgeFlags="right"/>
     </Row>
