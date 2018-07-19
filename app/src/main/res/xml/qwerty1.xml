@@ -1,7 +1,12 @@
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:horizontalGap="0px"
     android:verticalGap="0px"
-    android:keyHeight="48dp">
+    android:keyHeight="40dp">
+    <Row>
+        <Key android:codes="2" android:keyWidth="33.33%p" android:keyLabel="" android:keyEdgeFlags="left"/>
+        <Key android:codes="2" android:keyWidth="33.34%p" android:keyLabel=""/>
+        <Key android:codes="2" android:keyWidth="33.33%p" android:keyLabel="" android:keyEdgeFlags="right"/>
+    </Row>
     <Row>
         <Key android:codes="2362" android:keyWidth="8.33%p" android:keyLabel="&#x093A;" android:keyEdgeFlags="left"/>
         <Key android:codes="33" android:keyWidth="8.33%p" android:keyLabel="\!"/>
@@ -46,7 +51,7 @@
         <Key android:codes="34" android:keyWidth="8.33%p" android:keyLabel='\"' android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="-1" android:keyWidth="18%p" android:keyLabel="&#8679;" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyWidth="18%p" android:keyLabel="&#9654;" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
         <Key android:codes="2359" android:keyWidth="8%p" android:keyLabel="&#x0937;"/>
         <Key android:codes="2337" android:keyWidth="8%p" android:keyLabel="&#x0921;"/>
         <Key android:codes="2330" android:keyWidth="8%p" android:keyLabel="&#x091A;"/>
@@ -60,7 +65,7 @@
     </Row>
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="44,63" android:keyLabel="\, ?" android:keyWidth="15%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="-9" android:keyWidth="10%p" android:keyLabel="&#9112;"/>
+        <Key android:codes="-6" android:keyWidth="10%p" android:keyLabel="&#9112;"/>
         <Key android:codes="32" android:keyLabel="" android:keyWidth="50%p" android:isRepeatable="true"/>
         <Key android:codes="2404" android:keyLabel="&#x0964;" android:keyWidth="10%p" />
         <Key android:codes="-4" android:keyLabel="&#9166;" android:keyWidth="15%p" android:keyEdgeFlags="right"/>

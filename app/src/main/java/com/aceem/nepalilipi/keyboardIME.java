@@ -17,6 +17,7 @@ public class keyboardIME extends InputMethodService implements KeyboardView.OnKe
     private KeyboardView kv;
     private Keyboard keyboard;
     private int flag = 0;
+    private int flag1 = 0;
 
     private boolean caps = false;
 
@@ -38,7 +39,22 @@ public class keyboardIME extends InputMethodService implements KeyboardView.OnKe
             case Keyboard.KEYCODE_DELETE:
                 ic.deleteSurroundingText(1, 0);
                 break;
-            case Keyboard.KEYCODE_SHIFT:
+
+            case Keyboard.KEYCODE_ALT:
+                if (flag1 == 0) {
+                    keyboard = new Keyboard(this, R.xml.qwerty2);
+                    kv.setKeyboard(keyboard);
+                    kv.setOnKeyboardActionListener(this);
+                    flag1 = 1;
+                } else {
+                    keyboard = new Keyboard(this, R.xml.qwerty0);
+                    kv.setKeyboard(keyboard);
+                    kv.setOnKeyboardActionListener(this);
+                    flag1 = 0;
+                }
+                break;
+
+            case Keyboard.KEYCODE_MODE_CHANGE:
                 if (flag == 0) {
                     keyboard = new Keyboard(this, R.xml.qwerty1);
                     kv.setKeyboard(keyboard);
@@ -52,9 +68,16 @@ public class keyboardIME extends InputMethodService implements KeyboardView.OnKe
                 }
                 break;
 
+            case Keyboard.KEYCODE_SHIFT:
+                caps = !caps;
+                keyboard.setShifted(caps);
+                kv.invalidateAllKeys();
+                break;
+
             case Keyboard.KEYCODE_DONE:
                 ic.sendKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN, KeyEvent.KEYCODE_ENTER));
                 break;
+
             default:
                 char code = (char) primaryCode;
                 ic.commitText(String.valueOf(code), 1);
