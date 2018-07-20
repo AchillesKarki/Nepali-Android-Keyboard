@@ -1,7 +1,12 @@
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
     android:horizontalGap="0px"
     android:verticalGap="0px"
-    android:keyHeight="48dp">
+    android:keyHeight="40dp">
+    <Row>
+        <Key android:codes="2" android:keyWidth="33.33%p" android:keyLabel="" android:keyEdgeFlags="left"/>
+        <Key android:codes="2" android:keyWidth="33.34%p" android:keyLabel=""/>
+        <Key android:codes="2" android:keyWidth="33.33%p" android:keyLabel="" android:keyEdgeFlags="right"/>
+    </Row>
     <Row>
         <Key android:codes="2364" android:keyWidth="8.33%p" android:keyLabel="&#x093C;" android:keyEdgeFlags="left"/>
         <Key android:codes="2407" android:keyWidth="8.33%p" android:keyLabel="&#x0967;"/>
@@ -45,7 +50,7 @@
         <Key android:codes="39" android:keyWidth="8.33%p" android:keyLabel="\' " android:keyEdgeFlags="right"/>
     </Row>
     <Row>
-        <Key android:codes="-1" android:keyWidth="18%p" android:keyLabel="&#8679;" android:keyEdgeFlags="left"/>
+        <Key android:codes="-2" android:keyWidth="18%p" android:keyLabel="&#9654;" android:keyEdgeFlags="left"/>
         <Key android:codes="2400" android:keyWidth="8%p" android:keyLabel="&#x0960;"/>
         <Key android:codes="2338" android:keyWidth="8%p" android:keyLabel="&#x0922;"/>
         <Key android:codes="2331" android:keyWidth="8%p" android:keyLabel="&#x091B;"/>
@@ -58,7 +63,7 @@
     </Row>
     <Row android:rowEdgeFlags="bottom">
         <Key android:codes="44,63" android:keyLabel="\, ?" android:keyWidth="15%p"  android:keyEdgeFlags="left"/>
-        <Key android:codes="-9" android:keyWidth="10%p" android:keyLabel="&#9112;"/>
+        <Key android:codes="-6" android:keyWidth="10%p" android:keyLabel="&#9112;"/>
         <Key android:codes="32" android:keyLabel="" android:keyWidth="50%p" android:isRepeatable="true"/>
         <Key android:codes="2404" android:keyLabel="&#x0964;" android:keyWidth="10%p" />
         <Key android:codes="-4" android:keyLabel="&#9166;" android:keyWidth="15%p" android:keyEdgeFlags="right"/>

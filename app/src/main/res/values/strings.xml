@@ -3,6 +3,7 @@
     <string name="ime_name">NepaliLipi IME</string>
 
     <!--Subtype-->
-    <string name="subtype_generic_romanized"><xliff:g example="Nepali" id="LANGUAGE_NAME">%s</xliff:g> (Romanized)</string>
+    <string name="subtype_generic_romanized">NepaliLipi</string>
     <string name="settings_name">Nepali Lipi Keyboard Settings</string>
+    <string name="subtype_en_US">English (US)</string>
 </resources>
