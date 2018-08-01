@@ -1,6 +1,6 @@
 # Nepali-Android-Keyboard
 
-NepaliLipi is an android application which is used to type Nepali (Devanagari) language scripts. 
+This is an android application which is used to type Nepali (Devanagari) language scripts. 
 It includes traditional Romanized layout as well as qwerty layout. 
 
 ## Local Deployment
